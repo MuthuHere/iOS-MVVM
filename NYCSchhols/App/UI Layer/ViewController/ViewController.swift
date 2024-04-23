@@ -17,6 +17,9 @@ class ViewController: UIViewController {
         
         listenSchoolsList()
         viewModel.getSchools()
+        
+        let title = "app_title".localized()
+        print(title)
 
     }
 

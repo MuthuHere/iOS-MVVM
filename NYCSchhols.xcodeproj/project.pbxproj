@@ -12,6 +12,8 @@
 		BC25C86E2BD784FA0061E897 /* MockSchoolApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC25C86D2BD784FA0061E897 /* MockSchoolApi.swift */; };
 		BC25C8702BD786BA0061E897 /* SchoolListLoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC25C86F2BD786BA0061E897 /* SchoolListLoadingState.swift */; };
 		BC25C8732BD789920061E897 /* SchoolsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC25C8722BD789920061E897 /* SchoolsViewModel.swift */; };
+		BC25C8762BD7B0C40061E897 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC25C8752BD7B0C40061E897 /* Localizable.strings */; };
+		BC25C8792BD7B10F0061E897 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC25C8782BD7B10F0061E897 /* StringHelper.swift */; };
 		BC6A779C2BC803AB0094320E /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A779B2BC803AB0094320E /* DataError.swift */; };
 		BC6A779F2BC807230094320E /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A779E2BC807230094320E /* School.swift */; };
 		BCD448DA2BC791B6001DA418 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD448D92BC791B6001DA418 /* AppDelegate.swift */; };
@@ -56,6 +58,8 @@
 		BC25C86D2BD784FA0061E897 /* MockSchoolApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSchoolApi.swift; sourceTree = "<group>"; };
 		BC25C86F2BD786BA0061E897 /* SchoolListLoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListLoadingState.swift; sourceTree = "<group>"; };
 		BC25C8722BD789920061E897 /* SchoolsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsViewModel.swift; sourceTree = "<group>"; };
+		BC25C8752BD7B0C40061E897 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		BC25C8782BD7B10F0061E897 /* StringHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
 		BC6A779B2BC803AB0094320E /* DataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataError.swift; sourceTree = "<group>"; };
 		BC6A779E2BC807230094320E /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
 		BCD448D62BC791B6001DA418 /* NYCSchhols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYCSchhols.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +125,22 @@
 			path = viewmodels;
 			sourceTree = "<group>";
 		};
+		BC25C8742BD7B0AC0061E897 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				BC25C8752BD7B0C40061E897 /* Localizable.strings */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		BC25C8772BD7B0FF0061E897 /* Uitility */ = {
+			isa = PBXGroup;
+			children = (
+				BC25C8782BD7B10F0061E897 /* StringHelper.swift */,
+			);
+			path = Uitility;
+			sourceTree = "<group>";
+		};
 		BC6A779D2BC806CD0094320E /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +175,7 @@
 		BCD448D82BC791B6001DA418 /* NYCSchhols */ = {
 			isa = PBXGroup;
 			children = (
+				BC25C8742BD7B0AC0061E897 /* Supporting */,
 				BCF26EAE2BC7DE7200271C13 /* App */,
 				BCD448D92BC791B6001DA418 /* AppDelegate.swift */,
 				BCD448DB2BC791B6001DA418 /* SceneDelegate.swift */,
@@ -186,6 +207,7 @@
 		BCF26EAE2BC7DE7200271C13 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				BC25C8772BD7B0FF0061E897 /* Uitility */,
 				BCF26EB12BC7DEA900271C13 /* UI Layer */,
 				BCF26EAF2BC7DE7C00271C13 /* Data Layer */,
 			);
@@ -359,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCD448E62BC791C3001DA418 /* LaunchScreen.storyboard in Resources */,
+				BC25C8762BD7B0C40061E897 /* Localizable.strings in Resources */,
 				BCD448E32BC791C3001DA418 /* Assets.xcassets in Resources */,
 				BCD448E12BC791B6001DA418 /* Main.storyboard in Resources */,
 			);
@@ -491,6 +514,7 @@
 				BC25C8732BD789920061E897 /* SchoolsViewModel.swift in Sources */,
 				BC6A779C2BC803AB0094320E /* DataError.swift in Sources */,
 				BC6A779F2BC807230094320E /* School.swift in Sources */,
+				BC25C8792BD7B10F0061E897 /* StringHelper.swift in Sources */,
 				BC25C8702BD786BA0061E897 /* SchoolListLoadingState.swift in Sources */,
 				BCD448DE2BC791B6001DA418 /* ViewController.swift in Sources */,
 				BCD448DA2BC791B6001DA418 /* AppDelegate.swift in Sources */,
